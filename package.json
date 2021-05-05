@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.4.0",
-  "description": "Aman Sharma's slice of internet",
+  "description": "Gauransh Dingwani's slice of internet",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/algomaster99/portfolio.git"
+    "url": "git+https://github.com/gauransh7/portfolio.git"
   },
-  "author": "Aman Sharma",
+  "author": "Gauransh Dingwani",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/algomaster99/portfolio/issues"
+    "url": "https://github.com/gauransh7/portfolio/issues"
   },
-  "homepage": "https://github.com/algomaster99/portfolio#readme",
+  "homepage": "https://github.com/gauransh7/portfolio#readme",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
