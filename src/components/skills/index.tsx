@@ -4,9 +4,8 @@ import styles from './index.sass'
 import react from '../../assets/icons/react.svg'
 import redux from '../../assets/icons/redux.svg'
 import django from '../../assets/icons/django.svg'
-import sass from '../../assets/icons/sass.svg'
 
-const LOGOS = [react, redux, django, sass]
+const LOGOS = [react, redux, django]
 
 class Skills extends React.PureComponent {
   render(): JSX.Element {

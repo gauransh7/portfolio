@@ -8,6 +8,7 @@ import Footer from '../footer'
 import {
   EXPERIENCE_1,
   EXPERIENCE_2,
+  EXPERIENCE_3,
   EMAIL,
   TECHNICAL_SKILLS_1,
   TECHNICAL_SKILLS_2,
@@ -27,11 +28,12 @@ class Content extends React.PureComponent {
         <div className={styles.experience}>
           <ContentBox header="experience" content={EXPERIENCE_1} />
           <ContentBox content={EXPERIENCE_2} />
+          <ContentBox content={EXPERIENCE_3} />
         </div>
         <div className={styles.techSkills}>
           <ContentBox header="technical skills" content={TECHNICAL_SKILLS_1} />
-          <ContentBox content={TECHNICAL_SKILLS_2} />
           <Skills />
+          <ContentBox content={TECHNICAL_SKILLS_2} />
         </div>
         <div className={styles.notTechSkills}>
           <ContentBox

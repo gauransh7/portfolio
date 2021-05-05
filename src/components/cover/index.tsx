@@ -3,7 +3,7 @@ import React from 'react'
 import Button from '../button'
 import { FULL_NAME, SHORT_BIO, TYPE } from '../../consts'
 
-import me from '../../assets/me.jpeg'
+import me from '../../assets/me.jpg'
 import resume from '../../assets/resume.pdf'
 import styles from './index.sass'
 
